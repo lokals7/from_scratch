@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 	<body>
-		<h1>Start</h1>
+		<h1>Start Project</h1>
 		<?php
 		echo 'Current PHP version: ' . phpversion();
 		?>
