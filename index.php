@@ -8,10 +8,14 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 	<body>
+	<div class="main">
+		<div class="wrapper">
 		<h1>Start Project</h1>
 		<?php
-		echo 'Current PHP version: ' . phpversion();
+		echo 'You are currently running PHP version: ' . phpversion();
 		?>
-		<?php phpinfo(); ?>
+		
+		</div>
+	</div>
 	</body>
 </html>
