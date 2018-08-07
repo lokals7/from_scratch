@@ -1,23 +1,23 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>From Scratch</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/media.css">
-</head>
-	<body>
+<?php $home=true; ?>
+<?php require('connection.php'); ?>
+<?php include 'includes/head.php'; ?>
+<?php include 'includes/nav.php'; ?>
+<?php include 'includes/banner.php'; ?>
 	<div class="main">
 		<div class="wrapper">
 		<main>
-		<h1>Start Project</h1>
-		<?php
-		echo 'You are currently running PHP version: ' . phpversion();
-		?>
-		<?php include 'includes/nav.php'; ?>
+		<h1>Welcome to From Scratch</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Blandit libero volutpat sed cras. Ut sem nulla pharetra diam sit amet. Mattis enim ut tellus elementum sagittis vitae. Morbi tempus iaculis urna id volutpat lacus laoreet non. Nam aliquam sem et tortor consequat id porta. Nunc sed id semper risus in hendrerit gravida. In fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Mauris cursus mattis molestie a iaculis at erat. Laoreet non curabitur gravida arcu ac tortor. Varius duis at consectetur lorem donec massa. Aliquet eget sit amet tellus cras adipiscing enim eu.</p>
+
+		<p>Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Eleifend quam adipiscing vitae proin sagittis nisl. Sociis natoque penatibus et magnis. Ultricies mi eget mauris pharetra et ultrices. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor. Fermentum posuere urna nec tincidunt. Praesent semper feugiat nibh sed pulvinar proin gravida. Turpis in eu mi bibendum neque egestas congue quisque. Sit amet aliquam id diam maecenas ultricies mi eget mauris. Donec adipiscing tristique risus nec feugiat in. Eget felis eget nunc lobortis mattis. Dignissim enim sit amet venenatis. Quisque non tellus orci ac auctor augue mauris. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. Ornare suspendisse sed nisi lacus sed viverra tellus in hac.</p>
+
+		<p>Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel. Sagittis nisl rhoncus mattis rhoncus. Consequat id porta nibh venenatis cras sed. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Aliquet bibendum enim facilisis gravida neque. Enim facilisis gravida neque convallis a cras semper auctor neque. Imperdiet massa tincidunt nunc pulvinar sapien et ligula. Libero id faucibus nisl tincidunt eget nullam non nisi est. Sed id semper risus in hendrerit gravida rutrum quisque. Consequat id porta nibh venenatis. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Consequat semper viverra nam libero justo laoreet sit. Fusce ut placerat orci nulla pellentesque dignissim enim sit. Venenatis cras sed felis eget velit. Nec nam aliquam sem et tortor consequat id. Est pellentesque elit ullamcorper dignissim. Non arcu risus quis varius quam quisque id diam. Eu non diam phasellus vestibulum lorem. Quis viverra nibh cras pulvinar.</p>
+
+		<p>Faucibus in ornare quam viverra orci sagittis eu volutpat. Vitae tempus quam pellentesque nec nam. Vitae congue eu consequat ac felis donec et odio. Tristique risus nec feugiat in fermentum posuere urna nec. Ultrices dui sapien eget mi proin sed. Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan. Consequat mauris nunc congue nisi vitae suscipit tellus mauris. Feugiat vivamus at augue eget arcu dictum. Cursus euismod quis viverra nibh. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper.</p>
+
+		<p>Hendrerit dolor magna eget est lorem ipsum. Purus in mollis nunc sed id semper risus. Quis lectus nulla at volutpat diam ut venenatis. Etiam erat velit scelerisque in. Ullamcorper malesuada proin libero nunc. Neque egestas congue quisque egestas diam in arcu cursus. Non odio euismod lacinia at quis. Quis vel eros donec ac odio tempor orci dapibus ultrices. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Eu sem integer vitae justo eget. In pellentesque massa placerat duis ultricies lacus sed turpis. Tincidunt nunc pulvinar sapien et ligula. Facilisi etiam dignissim diam quis enim lobortis scelerisque. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor. Senectus et netus et malesuada fames ac. Placerat vestibulum lectus mauris ultrices eros in. Vulputate enim nulla aliquet porttitor lacus luctus accumsan. Lorem sed risus ultricies tristique nulla aliquet. Amet dictum sit amet justo donec.</p>
 		</main>
 		</div>
 	</div>
-	</body>
-</html>
+<?php include 'includes/footer.php';?>
+	
