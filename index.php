@@ -10,11 +10,13 @@
 	<body>
 	<div class="main">
 		<div class="wrapper">
+		<main>
 		<h1>Start Project</h1>
 		<?php
 		echo 'You are currently running PHP version: ' . phpversion();
 		?>
-		
+		<?php include 'includes/nav.php'; ?>
+		</main>
 		</div>
 	</div>
 	</body>
