@@ -30,8 +30,8 @@ if (isset($_POST['login'])){
 			<div class="login_form">
 			<h2>Login Here</h2>
 			<form class="" role="form" method = "POST" action = "">
-			  Username:<input type="text" class="form-control" placeholder="Username" name="username">
-			  Password:<input type="password" class="form-control" placeholder="Password" name="password">
+			  <div class="field">Username:<input type="text" class="form-control" placeholder="Username" name="username"></div>
+			  <div class="field">Password:<input type="password" class="form-control" placeholder="Password" name="password"></div>
 			  <button type="submit" class="btn btn-success" name="login">Login</button>
 			</form>
 			</div>
